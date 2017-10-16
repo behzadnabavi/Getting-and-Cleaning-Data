@@ -62,3 +62,6 @@ tidy_data<-merged_data %>%
   group_by(.dots=c("Subject","Activity")) %>% 
   summarise_all(funs(mean)) %>%
   as.data.frame()
+
+# Save Data
+write.table(tidy_data, ".\\tidy_data.txt", sep="\t")
