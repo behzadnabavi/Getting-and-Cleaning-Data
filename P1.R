@@ -1,7 +1,5 @@
 library(plyr); library(dplyr)
 
-setwd("C:\\Users\\smmen\\Dropbox\\Nariz\\R\\Data Cleaning Course\\Week 4 Project")
-
 # Reading test data
 data1 = read.table(".\\UCI HAR Dataset\\test\\X_test.txt")
 data2 = read.table(".\\UCI HAR Dataset\\test\\y_test.txt")
